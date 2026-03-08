@@ -64,7 +64,7 @@ export default function ParticipantDashboard() {
             <Link to="/events" className="sb-item">🗓️ Browse Events</Link>
             <div className="sb-item">✅ My Registrations <span className="sb-badge">{registrations.length}</span></div>
             <div className="sb-section">Team</div>
-            <Link to="/teams" className="sb-item">👥 My Teams <span className="sb-badge">{teams.length}</span></div>
+            <Link to="/teams" className="sb-item"> My Teams <span...</Link>  
             <div className="sb-section">Account</div>
             <Link to="/notifications" className="sb-item">🔔 Notifications {unread > 0 && <span className="sb-badge">{unread}</span>}</Link>
             <Link to="/profile" className="sb-item">⚙ Profile</Link>
